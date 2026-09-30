@@ -1,0 +1,53 @@
+/* ================================
+Estilos generales del cuerpo
+================================ */
+body {
+    background-color: #f9f9f9; /* Color de fondo claro para resaltar la tarjeta */
+    font-family: Arial, sans-serif; /* Fuente moderna y legible para todo el contenido */
+    display: flex; /* Usamos Flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido en la página */
+    align-items: center; /* Centra verticalmente el contenido en la ventana */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana del navegador */
+    margin: 0; /* Elimina márgenes por defecto del navegador */
+}
+
+/* ================================
+Estilos para la tarjeta
+================================ */
+.tarjeta {
+    background-color: #ffffff; /* Fondo blanco para destacar el contenido */
+    border-radius: 15px; /* Bordes redondeados para un diseño más amigable */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra suave para dar profundidad */
+    text-align: center; /* Centra el texto dentro de la tarjeta */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+    width: 300px; /* Ancho fijo para mantener proporción visual */
+}
+
+/* ================================
+Estilos para la imagen de perfil
+================================ */
+.tarjeta img {
+    width: 120px; /* Ancho fijo de la imagen */
+    height: 120px; /* Alto fijo para mantener proporción cuadrada */
+    border-radius: 50%; /* Convierte la imagen en un círculo */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+    margin-bottom: 15px; /* Espacio debajo de la imagen antes del texto */
+}
+
+/* ================================
+Estilos para el nombre (h2)
+================================ */
+.tarjeta h2 {
+    margin: 10px 0; /* Espacio arriba y abajo del nombre */
+    color: #333333; /* Color oscuro para buen contraste */
+    font-size: 22px; /* Tamaño de fuente para destacar el nombre */
+}
+
+/* ================================
+Estilos para la descripción (p)
+================================ */
+.tarjeta p {
+    font-size: 16px; /* Tamaño de fuente cómodo para lectura */
+    color: #555555; /* Color gris medio para texto secundario */
+    line-height: 1.4; /* Espaciado entre líneas para mejor legibilidad */
+}
